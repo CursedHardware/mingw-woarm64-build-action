@@ -1,0 +1,21 @@
+name: Mingw Windows on ARM64 Build Action
+description: A GitHub Action to build Mingw for Windows on ARM64 architecture.
+author: Windows on ARM Experiments
+
+branding:
+  icon: package
+  color: blue
+
+inputs:
+  version:
+    description: The version of Mingw to build.
+    required: true
+    default: latest
+
+outputs:
+  toolchain-path:
+    description: The path to the built Mingw toolchain.
+
+runs:
+  using: node24
+  main: dist/main.js

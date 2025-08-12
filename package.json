@@ -1,0 +1,23 @@
+{
+  "name": "@windows-on-arm-experiments/mingw-woarm64-build-action",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "license": "MIT",
+  "author": "",
+  "scripts": {
+    "start": "webpack"
+  },
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/tool-cache": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "esbuild-register": "^3.6.0",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.9.2",
+    "webpack": "^5.101.1",
+    "webpack-cli": "^6.0.1"
+  }
+}
